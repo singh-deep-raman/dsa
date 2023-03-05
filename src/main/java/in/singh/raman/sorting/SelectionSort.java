@@ -3,6 +3,7 @@ package in.singh.raman.sorting;
 import java.util.Arrays;
 
 public class SelectionSort {
+
     public static void main(String[] args) {
         int arr[] = {
            229,  837, 246, 537, 309, 779, 734, 111, 751, 495, 252, 985, 336, 849,1
