@@ -1,4 +1,6 @@
-package in.singh.raman.linkedlist;
+package in.singh.raman.linkedlist.palindrome;
+
+import in.singh.raman.linkedlist.Node;
 
 import java.util.Stack;
 
