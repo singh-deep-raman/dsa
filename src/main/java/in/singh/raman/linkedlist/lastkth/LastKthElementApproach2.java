@@ -9,7 +9,7 @@ import java.util.Stack;
  *
  * Approach:
  *  We find size of the linked list by traversing it
- *  We create offsetCounter = size - k;
+ *  We create offsetCounter = size - k + 1;
  *  We traverse the linkedlist using the offsetCounter and get the kth element from the last
  *
  *  TC - O(n)
