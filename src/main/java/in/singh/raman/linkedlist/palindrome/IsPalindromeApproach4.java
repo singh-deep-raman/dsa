@@ -2,6 +2,8 @@ package in.singh.raman.linkedlist.palindrome;
 
 import in.singh.raman.linkedlist.Node;
 
+import static in.singh.raman.linkedlist.LinkedListUtil.calculateLength;
+
 /**
  * Main idea behind this approach is to reach mid of the linked list using recursion.
  * You need to calculate the length in advance before calling recursive function.
@@ -90,16 +92,6 @@ public class IsPalindromeApproach4 {
         res.node = res.node.next;
 
         return res;
-    }
-
-    private static int calculateLength(Node head) {
-        int length = 0;
-        var ptr = head;
-        while (ptr != null) {
-            ptr = ptr.next;
-            length++;
-        }
-        return length;
     }
 
 }
